@@ -1,0 +1,11 @@
+//Ejemplo de archivo para la corrección eslint
+//Para usarlo, este archivo debe estar en la raiz del proyecto y ejecutar: eslint <path_fichero_revisar>
+
+{
+    "parserOptions":{
+        "ecmaVersion": 6
+    },
+    "rules": {
+        "semi": ["error","always"]
+    }
+}
